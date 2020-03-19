@@ -7,49 +7,49 @@ DROP TABLE IF EXISTS Prova;
 
 
 CREATE TABLE Aluno (
-	    nr int PRIMARY KEY,
-	    nome TEXT NOT NULL
+    nr int PRIMARY KEY,
+    nome TEXT NOT NULL
 );
 
 CREATE TABLE Prof (
-	    sigla TEXT PRIMARY KEY,
-	    nome TEXT
+    sigla TEXT PRIMARY KEY,
+    nome TEXT
 );
 
 CREATE TABLE Cadeira (
-	    cod TEXT PRIMARY KEY,
-	    design TEXT,
-	    curso TEXT,
-	    regente TEXT,
-	    FOREIGN KEY (regente) REFERENCES Prof(nome)
-	        ON DELETE
-		            no action
-			        ON UPDATE
-				            no action
-				);
+    cod TEXT PRIMARY KEY,
+    design TEXT,
+    curso TEXT,
+    regente TEXT,
+    FOREIGN KEY (regente) REFERENCES Prof(nome)
+        ON DELETE
+            no action
+        ON UPDATE
+            no action
+);
 
-				CREATE TABLE Prova (
-					    nr int,
-					    cod TEXT,
-					    data char(8),
-					    nota NUMERIC,
-					    PRIMARY KEY (nr, cod, data),
+CREATE TABLE Prova (
+    nr int,
+    cod TEXT,
+    data char(8),
+    nota NUMERIC,
+    PRIMARY KEY (nr, cod, data),
 
-					    FOREIGN KEY (nr) REFERENCES Aluno(nr)
-					        ON DELETE
-						            no action
-							        ON UPDATE
-								            no action,
-									    FOREIGN KEY (cod) REFERENCES Cadeira(cod)
-									        ON DELETE
-										            no action
-											        ON UPDATE
-												            no action,
+    FOREIGN KEY (nr) REFERENCES Aluno(nr)
+        ON DELETE
+            no action
+        ON UPDATE
+            no action,
+    FOREIGN KEY (cod) REFERENCES Cadeira(cod)
+        ON DELETE
+            no action
+        ON UPDATE
+            no action,
 
-													    CONSTRAINT CHK_nota CHECK ( nota >= 0 AND nota <= 20 )
-												);
+    CONSTRAINT CHK_nota CHECK ( nota >= 0 AND nota <= 20 )
+);
 
-												-- Inserting values
+-- Inserting values
 
 INSERT INTO Aluno(nr, nome)
     VALUES (100, 'João');
