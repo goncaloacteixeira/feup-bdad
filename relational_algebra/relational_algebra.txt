@@ -5,7 +5,7 @@
 π Nome Aluno ∪ π Nome Prof						-- 5
 Aluno ⨝ σcod='TS1' Prova						-- 6
 π Nome (Aluno ⨝Prova.nr=Aluno.nr (σcurso='IS' (Prova ⨝ Cadeira)))	-- 7
-(π Nome, cod (Aluno ⨝ σ nota >= 10 Prova))÷(π cod σ curso='IS' Cadeira)	-- 8
+π Nome, cod (Aluno ⨝ σ nota >= 10 Prova))÷(π cod σ curso='IS' Cadeira	-- 8
 γ max(nota)->maxNota Prova						-- 9
 γ avg(nota)->avgNota Prova						-- 10
 γ count(Nome)->number Aluno						-- 11
