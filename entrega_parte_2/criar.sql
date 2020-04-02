@@ -3,6 +3,7 @@ PRAGMA foreign_keys = true;
 DROP TABLE IF EXISTS Interessado;
 DROP TABLE IF EXISTS Moto;
 DROP TABLE IF EXISTS Carro;
+DROP TABLE IF EXISTS Combustivel;
 DROP TABLE IF EXISTS Tracao;
 DROP TABLE IF EXISTS CaixaVelocidades;
 DROP TABLE IF EXISTS Peca;
@@ -50,7 +51,7 @@ CREATE TABLE Anuncio(
     id INTEGER PRIMARY KEY,
     descricao TEXT,
     preco INTEGER CHECK ( preco >= 0 ),
-    dataAnuncio DATE
+    dataAnuncio TEXT
 );
 
 CREATE TABLE Foto(
@@ -143,6 +144,10 @@ CREATE TABLE Tracao(
     tipo TEXT PRIMARY KEY
 );
 
+CREATE TABLE Combustivel(
+    tipo TEXT PRIMARY KEY
+);
+
 CREATE TABLE Carro(
     id INTEGER PRIMARY KEY,
     lotacao INTEGER CHECK ( lotacao >= 1 ) NOT NULL,
@@ -152,9 +157,11 @@ CREATE TABLE Carro(
     importado INTEGER,
     tipoCaixa TEXT,
     numVelocidades INTEGER,
+    combustivel TEXT,
     FOREIGN KEY (id) REFERENCES Veiculo,
     FOREIGN KEY (tracao) REFERENCES Tracao,
     FOREIGN KEY (tipoCaixa, numVelocidades) REFERENCES CaixaVelocidades,
+    FOREIGN KEY (combustivel) REFERENCES Combustivel,
     CONSTRAINT CHK_BOOL CHECK ( importado = 0 OR importado = 1 )
 );
 
