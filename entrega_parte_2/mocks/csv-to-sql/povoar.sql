@@ -848,172 +848,172 @@ INSERT INTO Registo(ano, mes)
 
 -- Povoar Veiculos
 
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(10, '49-CG-80', 171481, 1, 1, '1', 4, 'Audi', 'A3', 120, 2000, 'black', 'city', 2003, 7);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(58, '36-MZ-61', 70585, 1, 0, '0', 1, 'BMW', '550', 220, 3000, 'blue', 'city', 2004, 4);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(83, '09-WS-13', 22644, 1, 1, '0', 1, 'Chevrolet', 'Captiva', 120, 2000, 'green', 'city', 2002, 2);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(80, '70-FN-06', 12026, 1, 1, '1', 2, 'Ford', 'Fiesta', 110, 1600, 'green', 'city', 1998, 9);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(100, '89-BH-74', 385361, 0, 0, '1', 4, 'Ford', 'Fiesta', 110, 1600, 'purple', 'city', 2007, 3);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(41, '23-NB-45', 187015, 0, 1, '1', 3, 'Honda', 'Civic', 110, 1600, 'white', 'city', 2004, 10);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(74, '86-GG-67', 225084, 1, 0, '0', 4, 'Honda', 'Civic', 110, 1600, 'black', 'city', 1992, 9);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(98, '37-LH-19', 237407, 1, 1, '0', 1, 'Honda', 'Civic', 110, 1600, 'black', 'city', 1999, 5);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(33, '12-PC-15', 10333, 0, 0, '0', 1, 'Kia', 'Ceed', 110, 1600, 'green', 'city', 1993, 11);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(38, '79-FD-56', 49712, 1, 0, '0', 2, 'Kia', 'Ceed', 110, 1600, 'blue', 'city', 2013, 4);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(50, '01-OO-83', 37902, 1, 0, '0', 3, 'Mercedes-Benz', 'A45', 300, 2000, 'blue', 'city', 2012, 9);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(85, '17-GJ-02', 34425, 0, 1, '0', 1, 'Mercedes-Benz', 'A180', 110, 1500, 'blue', 'city', 1995, 11);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(76, '40-IJ-68', 71475, 1, 1, '0', 4, 'Nissan', 'Pixar', 110, 1600, 'blue', 'city', 2010, 2);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(82, '09-NM-34', 109763, 1, 1, '0', 4, 'Toyota', 'Yaris', 110, 1600, 'blue', 'city', 2006, 12);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(84, '42-QX-41', 301515, 0, 0, '0', 1, 'Toyota', 'Yaris', 110, 1600, 'purple', 'city', 1998, 12);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(89, '93-MH-04', 146076, 1, 0, '1', 3, 'Toyota', 'Yaris', 110, 1600, 'black', 'city', 1962, 4);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(29, '03-LI-17', 166847, 1, 0, '0', 4, 'Volkswagen', 'Golf', 110, 2000, 'black', 'city', 1997, 1);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(91, '13-HX-77', 282103, 1, 0, '1', 4, 'Volkswagen', 'Polo', 110, 1600, 'black', 'city', 2009, 9);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(53, '38-CV-07', 74106, 1, 0, '1', 3, 'Volvo', 'V90', 110, 2000, 'blue', 'city', 2003, 1);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(7, '69-AN-89', 213032, 1, 0, '0', 4, 'BMW', 'i8', 400, 3000, 'black', 'coupe', 2002, 10);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(57, '84-TQ-23', 27778, 1, 1, '0', 4, 'Ford', 'Mustang', 400, 4000, 'green', 'coupe', 1988, 3);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(15, '53-ZG-09', 35311, 0, 1, '1', 3, 'Jaguar', 'F-Type', 400, 3000, 'red', 'coupe', 2003, 12);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(60, '97-PV-96', 42315, 0, 0, '0', 4, 'Mercedes-Benz', 'C63', 400, 3000, 'red', 'coupe', 1990, 4);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(95, '73-OK-89', 130137, 0, 0, '1', 3, 'Mercedes-Benz', 'E43', 400, 3000, 'blue', 'coupe', 2003, 8);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(35, '26-IT-97', 228219, 1, 1, '0', 1, 'Nissan', 'GT-R', 400, 3000, 'black', 'coupe', 2011, 4);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(37, '25-JO-45', 9435, 1, 1, '0', 2, 'Nissan', 'GT-R', 400, 3000, 'blue', 'coupe', 2012, 1);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(96, '13-HD-32', 106482, 0, 1, '1', 1, 'Porsche', '911', 400, 3000, 'grey', 'coupe', 2009, 6);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(99, '08-CK-50', 298930, 0, 0, '1', 1, 'Porsche', '911', 400, 3000, 'black', 'coupe', 1985, 10);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(56, '19-HF-58', 262111, 1, 0, '0', 1, 'Volvo', 'V40', 220, 3000, 'black', 'coupe', 2010, 4);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(43, '49-HU-99', 335506, 0, 0, '0', 5, 'BMW', 'R', 300, 1000, 'red', 'moto', 2002, 6);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(14, '70-BH-59', 166674, 0, 1, '1', 5, 'Ducati', 'Multistrada', 120, 250, 'white', 'moto', 1994, 7);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(61, '21-OH-61', 109449, 0, 0, '0', 5, 'Ducati', '959', 120, 250, 'blue', 'moto', 2012, 6);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(77, '32-OH-07', 5247, 1, 0, '0', 5, 'Ducati', 'Monster', 120, 350, 'green', 'moto', 2008, 6);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(36, '58-TS-27', 169881, 0, 1, '1', 5, 'Honda', 'CBR', 100, 500, 'white', 'moto', 1994, 12);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(88, '76-OY-00', 76509, 1, 1, '0', 5, 'Honda', 'CBR', 100, 500, 'blue', 'moto', 1994, 4);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(81, '76-CT-73', 13826, 1, 0, '0', 5, 'Kawasaki', 'Ninja', 100, 500, 'green', 'moto', 2003, 6);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(51, '16-AH-16', 287804, 1, 0, '1', 5, 'Suzuki', 'V40', 100, 500, 'black', 'moto', 2004, 5);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(28, '59-CE-63', 31445, 1, 0, '1', 5, 'Yamaha', 'MT-07', 100, 250, 'green', 'moto', 2012, 8);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(30, '91-XD-04', 124098, 0, 0, '1', 5, 'Yamaha', 'R1', 100, 500, 'blue', 'moto', 2007, 5);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(46, '25-ZB-48', 238372, 0, 1, '0', 5, 'Yamaha', 'MT-09', 100, 250, 'blue', 'moto', 1997, 8);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(87, '72-HS-18', 364799, 0, 1, '0', 5, 'Yamaha', 'MT-07', 100, 250, 'red', 'moto', 1986, 9);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(97, '29-KO-72', 74190, 0, 1, '1', 5, 'Yamaha', 'MT-07', 100, 250, 'grey', 'moto', 2006, 8);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(79, '53-XD-38', 385813, 0, 1, '0', 3, 'Audi', 'A1', 100, 1500, 'black', 'sedan', 2008, 11);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(5, '60-EY-19', 159890, 1, 1, '0', 2, 'BMW', 'M5', 600, 4000, 'black', 'sedan', 2013, 8);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(12, '86-KC-36', 307640, 1, 1, '0', 3, 'BMW', '330', 220, 2000, 'black', 'sedan', 2009, 7);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(13, '75-TU-14', 92975, 1, 0, '0', 2, 'BMW', 'M3', 300, 3000, 'blue', 'sedan', 1994, 3);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(54, '47-YR-09', 279607, 1, 1, '1', 4, 'BMW', '320', 150, 1600, 'black', 'sedan', 2004, 5);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(73, '88-ST-55', 152168, 0, 0, '1', 4, 'BMW', '123', 150, 1600, 'white', 'sedan', 2010, 12);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(48, '58-EC-01', 251602, 0, 1, '1', 2, 'Chevrolet', 'Captiva', 120, 2000, 'blue', 'sedan', 1994, 2);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(78, '27-IV-27', 215601, 0, 0, '1', 5, 'Chevrolet', 'Camaro', 120, 2000, 'blue', 'sedan', 1994, 3);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(1, '39-GS-00', 184046, 0, 1, '0', 1, 'Ford', 'Focus', 120, 1400, 'white', 'sedan', 2009, 5);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(6, '67-QW-51', 169990, 0, 1, '1', 5, 'Ford', 'Focus', 120, 1400, 'white', 'sedan', 1998, 2);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(55, '38-TE-46', 109846, 1, 1, '0', 4, 'Ford', 'Focus', 130, 1600, 'blue', 'sedan', 1995, 7);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(47, '84-EG-25', 19756, 1, 1, '0', 3, 'Jaguar', 'XF', 200, 2000, 'black', 'sedan', 2002, 1);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(93, '66-GE-77', 127116, 0, 0, '0', 4, 'Mazda', 'MX-5', 150, 1500, 'pink', 'sedan', 1999, 10);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(75, '89-LN-55', 118518, 1, 0, '0', 1, 'Mercedes-Benz', 'S63', 400, 4000, 'blue', 'sedan', 1998, 10);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(86, '07-BJ-07', 238223, 1, 0, '1', 2, 'Toyota', 'Corolla', 120, 1500, 'black', 'sedan', 2002, 4);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(92, '20-FN-35', 334503, 1, 1, '1', 4, 'Toyota', 'Corolla', 120, 1500, 'black', 'sedan', 1995, 10);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(94, '92-QU-41', 34948, 0, 1, '0', 4, 'Volvo', 'V90', 120, 1500, 'red', 'sedan', 2008, 8);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(42, '48-IS-65', 77873, 1, 0, '1', 2, 'Chevrolet', 'Impala', 120, 2000, 'blue', 'suv', 1994, 9);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(45, '23-RY-00', 24403, 1, 1, '1', 3, 'Chevrolet', 'Camaro', 120, 2000, 'green', 'suv', 1992, 12);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(20, '63-FG-22', 399637, 1, 1, '0', 3, 'Land Rover', 'Range Rover', 400, 3000, 'white', 'suv', 2010, 5);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(21, '80-QF-11', 15367, 0, 1, '0', 3, 'Land Rover', 'Range Rover', 200, 3000, 'green', 'suv', 2005, 2);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(31, '79-MO-10', 317484, 1, 1, '0', 1, 'Land Rover', 'Range Rover', 300, 3000, 'black', 'suv', 1993, 7);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(90, '72-QN-10', 119611, 1, 1, '1', 4, 'Land Rover', 'Range Rover', 200, 3000, 'blue', 'suv', 2011, 8);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(34, '95-HN-13', 369545, 1, 0, '1', 2, 'Nissan', 'Juke', 75, 1100, 'white', 'suv', 2001, 9);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(39, '12-BW-24', 396676, 1, 1, '1', 3, 'Nissan', 'Juke', 75, 1000, 'white', 'suv', 2009, 1);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(40, '00-KP-66', 350121, 1, 0, '0', 2, 'Volvo', 'V40', 110, 2000, 'black', 'suv', 2012, 6);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(3, '63-NU-05', 270080, 0, 1, '0', 4, 'BMW', 'i3', 75, 0, 'red', 'utility', 1999, 8);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(2, '31-JH-49', 372867, 0, 1, '0', 2, 'Chevrolet', 'Impala', 120, 2000, 'red', 'utility', 2009, 6);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(9, '23-RX-17', 396407, 1, 0, '0', 5, 'Chevrolet', 'Impala', 120, 2000, 'white', 'utility', 2005, 3);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(4, '46-LP-89', 77044, 1, 1, '0', 5, 'Ford', 'Fiesta', 100, 1400, 'blue', 'utility', 1990, 2);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(11, '85-VD-66', 391250, 1, 0, '1', 3, 'Ford', 'Fiesta', 110, 1500, 'white', 'utility', 1993, 11);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(32, '50-QI-57', 155691, 0, 1, '1', 2, 'Ford', 'Focus', 110, 1500, 'white', 'utility', 2005, 3);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(44, '26-FI-26', 267747, 0, 1, '0', 2, 'Ford', 'Fiesta', 110, 1500, 'red', 'utility', 1992, 1);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(16, '18-AS-32', 149155, 1, 1, '1', 4, 'Mazda', 'MX-3', 110, 1500, 'black', 'utility', 2004, 7);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(17, '60-JC-11', 98775, 1, 0, '0', 3, 'Mazda', 'MX-3', 110, 1500, 'blue', 'utility', 1989, 5);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(18, '63-UK-55', 223603, 0, 1, '0', 3, 'Mazda', 'MX-3', 110, 1500, 'blue', 'utility', 1993, 10);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(19, '89-FC-93', 189374, 1, 0, '1', 1, 'Mazda', 'MX-5', 110, 1500, 'black', 'utility', 1995, 11);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(52, '79-XU-74', 306347, 1, 1, '0', 5, 'BMW', '330', 220, 2000, 'black', 'van', 2007, 1);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(49, '95-KI-34', 125175, 1, 1, '1', 2, 'Ford', 'Transit', 160, 2200, 'blue', 'van', 2005, 11);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(59, '31-SS-48', 335520, 1, 0, '1', 2, 'Ford', 'Transit', 160, 2200, 'black', 'van', 1999, 1);
-INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
-	VALUES(8, '31-YB-52', 318539, 1, 1, '1', 2, 'Volkswagen', 'Passat', 150, 2000, 'black', 'van', 1992, 9);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(10, '49-CG-80', 171481, 1, 1, 1, 4, 'A3', 120, 2000, 'black', 'city', 2003, 7);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(58, '36-MZ-61', 70585, 1, 0, 0, 1, '550', 220, 3000, 'blue', 'city', 2004, 4);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(83, '09-WS-13', 22644, 1, 1, 0, 1, 'Captiva', 120, 2000, 'green', 'city', 2002, 2);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(80, '70-FN-06', 12026, 1, 1, 1, 2, 'Fiesta', 110, 1600, 'green', 'city', 1998, 9);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(100, '89-BH-74', 385361, 0, 0, 1, 4, 'Fiesta', 110, 1600, 'purple', 'city', 2007, 3);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(41, '23-NB-45', 187015, 0, 1, 1, 3, 'Civic', 110, 1600, 'white', 'city', 2004, 10);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(74, '86-GG-67', 225084, 1, 0, 0, 4, 'Civic', 110, 1600, 'black', 'city', 1992, 9);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(98, '37-LH-19', 237407, 1, 1, 0, 1, 'Civic', 110, 1600, 'black', 'city', 1999, 5);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(33, '12-PC-15', 10333, 0, 0, 0, 1, 'Ceed', 110, 1600, 'green', 'city', 1993, 11);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(38, '79-FD-56', 49712, 1, 0, 0, 2, 'Ceed', 110, 1600, 'blue', 'city', 2013, 4);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(50, '01-OO-83', 37902, 1, 0, 0, 3, 'A45', 300, 2000, 'blue', 'city', 2012, 9);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(85, '17-GJ-02', 34425, 0, 1, 0, 1, 'A180', 110, 1500, 'blue', 'city', 1995, 11);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(76, '40-IJ-68', 71475, 1, 1, 0, 4, 'Pixar', 110, 1600, 'blue', 'city', 2010, 2);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(82, '09-NM-34', 109763, 1, 1, 0, 4, 'Yaris', 110, 1600, 'blue', 'city', 2006, 12);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(84, '42-QX-41', 301515, 0, 0, 0, 1, 'Yaris', 110, 1600, 'purple', 'city', 1998, 12);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(89, '93-MH-04', 146076, 1, 0, 1, 3, 'Yaris', 110, 1600, 'black', 'city', 1962, 4);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(29, '03-LI-17', 166847, 1, 0, 0, 4, 'Golf', 110, 2000, 'black', 'city', 1997, 1);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(91, '13-HX-77', 282103, 1, 0, 1, 4, 'Polo', 110, 1600, 'black', 'city', 2009, 9);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(53, '38-CV-07', 74106, 1, 0, 1, 3, 'V90', 110, 2000, 'blue', 'city', 2003, 1);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(7, '69-AN-89', 213032, 1, 0, 0, 4, 'i8', 400, 3000, 'black', 'coupe', 2002, 10);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(57, '84-TQ-23', 27778, 1, 1, 0, 4, 'Mustang', 400, 4000, 'green', 'coupe', 1988, 3);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(15, '53-ZG-09', 35311, 0, 1, 1, 3, 'F-Type', 400, 3000, 'red', 'coupe', 2003, 12);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(60, '97-PV-96', 42315, 0, 0, 0, 4, 'C63', 400, 3000, 'red', 'coupe', 1990, 4);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(95, '73-OK-89', 130137, 0, 0, 1, 3, 'E43', 400, 3000, 'blue', 'coupe', 2003, 8);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(35, '26-IT-97', 228219, 1, 1, 0, 1, 'GT-R', 400, 3000, 'black', 'coupe', 2011, 4);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(37, '25-JO-45', 9435, 1, 1, 0, 2, 'GT-R', 400, 3000, 'blue', 'coupe', 2012, 1);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(96, '13-HD-32', 106482, 0, 1, 1, 1, '911', 400, 3000, 'grey', 'coupe', 2009, 6);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(99, '08-CK-50', 298930, 0, 0, 1, 1, '911', 400, 3000, 'black', 'coupe', 1985, 10);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(56, '19-HF-58', 262111, 1, 0, 0, 1, 'V40', 220, 3000, 'black', 'coupe', 2010, 4);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(43, '49-HU-99', 335506, 0, 0, 0, 5, 'R', 300, 1000, 'red', 'moto', 2002, 6);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(14, '70-BH-59', 166674, 0, 1, 1, 5, 'Multistrada', 120, 250, 'white', 'moto', 1994, 7);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(61, '21-OH-61', 109449, 0, 0, 0, 5, '959', 120, 250, 'blue', 'moto', 2012, 6);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(77, '32-OH-07', 5247, 1, 0, 0, 5, 'Monster', 120, 350, 'green', 'moto', 2008, 6);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(36, '58-TS-27', 169881, 0, 1, 1, 5, 'CBR', 100, 500, 'white', 'moto', 1994, 12);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(88, '76-OY-00', 76509, 1, 1, 0, 5, 'CBR', 100, 500, 'blue', 'moto', 1994, 4);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(81, '76-CT-73', 13826, 1, 0, 0, 5, 'Ninja', 100, 500, 'green', 'moto', 2003, 6);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(51, '16-AH-16', 287804, 1, 0, 1, 5, 'V40', 100, 500, 'black', 'moto', 2004, 5);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(28, '59-CE-63', 31445, 1, 0, 1, 5, 'MT-07', 100, 250, 'green', 'moto', 2012, 8);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(30, '91-XD-04', 124098, 0, 0, 1, 5, 'R1', 100, 500, 'blue', 'moto', 2007, 5);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(46, '25-ZB-48', 238372, 0, 1, 0, 5, 'MT-09', 100, 250, 'blue', 'moto', 1997, 8);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(87, '72-HS-18', 364799, 0, 1, 0, 5, 'MT-07', 100, 250, 'red', 'moto', 1986, 9);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(97, '29-KO-72', 74190, 0, 1, 1, 5, 'MT-07', 100, 250, 'grey', 'moto', 2006, 8);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(79, '53-XD-38', 385813, 0, 1, 0, 3, 'A1', 100, 1500, 'black', 'sedan', 2008, 11);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(5, '60-EY-19', 159890, 1, 1, 0, 2, 'M5', 600, 4000, 'black', 'sedan', 2013, 8);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(12, '86-KC-36', 307640, 1, 1, 0, 3, '330', 220, 2000, 'black', 'sedan', 2009, 7);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(13, '75-TU-14', 92975, 1, 0, 0, 2, 'M3', 300, 3000, 'blue', 'sedan', 1994, 3);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(54, '47-YR-09', 279607, 1, 1, 1, 4, '320', 150, 1600, 'black', 'sedan', 2004, 5);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(73, '88-ST-55', 152168, 0, 0, 1, 4, '123', 150, 1600, 'white', 'sedan', 2010, 12);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(48, '58-EC-01', 251602, 0, 1, 1, 2, 'Captiva', 120, 2000, 'blue', 'sedan', 1994, 2);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(78, '27-IV-27', 215601, 0, 0, 1, 5, 'Camaro', 120, 2000, 'blue', 'sedan', 1994, 3);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(1, '39-GS-00', 184046, 0, 1, 0, 1, 'Focus', 120, 1400, 'white', 'sedan', 2009, 5);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(6, '67-QW-51', 169990, 0, 1, 1, 5, 'Focus', 120, 1400, 'white', 'sedan', 1998, 2);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(55, '38-TE-46', 109846, 1, 1, 0, 4, 'Focus', 130, 1600, 'blue', 'sedan', 1995, 7);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(47, '84-EG-25', 19756, 1, 1, 0, 3, 'XF', 200, 2000, 'black', 'sedan', 2002, 1);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(93, '66-GE-77', 127116, 0, 0, 0, 4, 'MX-5', 150, 1500, 'pink', 'sedan', 1999, 10);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(75, '89-LN-55', 118518, 1, 0, 0, 1, 'S63', 400, 4000, 'blue', 'sedan', 1998, 10);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(86, '07-BJ-07', 238223, 1, 0, 1, 2, 'Corolla', 120, 1500, 'black', 'sedan', 2002, 4);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(92, '20-FN-35', 334503, 1, 1, 1, 4, 'Corolla', 120, 1500, 'black', 'sedan', 1995, 10);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(94, '92-QU-41', 34948, 0, 1, 0, 4, 'V90', 120, 1500, 'red', 'sedan', 2008, 8);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(42, '48-IS-65', 77873, 1, 0, 1, 2, 'Impala', 120, 2000, 'blue', 'suv', 1994, 9);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(45, '23-RY-00', 24403, 1, 1, 1, 3, 'Camaro', 120, 2000, 'green', 'suv', 1992, 12);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(20, '63-FG-22', 399637, 1, 1, 0, 3, 'Range Rover', 400, 3000, 'white', 'suv', 2010, 5);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(21, '80-QF-11', 15367, 0, 1, 0, 3, 'Range Rover', 200, 3000, 'green', 'suv', 2005, 2);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(31, '79-MO-10', 317484, 1, 1, 0, 1, 'Range Rover', 300, 3000, 'black', 'suv', 1993, 7);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(90, '72-QN-10', 119611, 1, 1, 1, 4, 'Range Rover', 200, 3000, 'blue', 'suv', 2011, 8);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(34, '95-HN-13', 369545, 1, 0, 1, 2, 'Juke', 75, 1100, 'white', 'suv', 2001, 9);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(39, '12-BW-24', 396676, 1, 1, 1, 3, 'Juke', 75, 1000, 'white', 'suv', 2009, 1);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(40, '00-KP-66', 350121, 1, 0, 0, 2, 'V40', 110, 2000, 'black', 'suv', 2012, 6);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(3, '63-NU-05', 270080, 0, 1, 0, 4, 'i3', 75, 0, 'red', 'utility', 1999, 8);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(2, '31-JH-49', 372867, 0, 1, 0, 2, 'Impala', 120, 2000, 'red', 'utility', 2009, 6);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(9, '23-RX-17', 396407, 1, 0, 0, 5, 'Impala', 120, 2000, 'white', 'utility', 2005, 3);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(4, '46-LP-89', 77044, 1, 1, 0, 5, 'Fiesta', 100, 1400, 'blue', 'utility', 1990, 2);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(11, '85-VD-66', 391250, 1, 0, 1, 3, 'Fiesta', 110, 1500, 'white', 'utility', 1993, 11);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(32, '50-QI-57', 155691, 0, 1, 1, 2, 'Focus', 110, 1500, 'white', 'utility', 2005, 3);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(44, '26-FI-26', 267747, 0, 1, 0, 2, 'Fiesta', 110, 1500, 'red', 'utility', 1992, 1);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(16, '18-AS-32', 149155, 1, 1, 1, 4, 'MX-3', 110, 1500, 'black', 'utility', 2004, 7);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(17, '60-JC-11', 98775, 1, 0, 0, 3, 'MX-3', 110, 1500, 'blue', 'utility', 1989, 5);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(18, '63-UK-55', 223603, 0, 1, 0, 3, 'MX-3', 110, 1500, 'blue', 'utility', 1993, 10);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(19, '89-FC-93', 189374, 1, 0, 1, 1, 'MX-5', 110, 1500, 'black', 'utility', 1995, 11);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(52, '79-XU-74', 306347, 1, 1, 0, 5, '330', 220, 2000, 'black', 'van', 2007, 1);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(49, '95-KI-34', 125175, 1, 1, 1, 2, 'Transit', 160, 2200, 'blue', 'van', 2005, 11);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(59, '31-SS-48', 335520, 1, 0, 1, 2, 'Transit', 160, 2200, 'black', 'van', 1999, 1);
+INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)
+	VALUES(8, '31-YB-52', 318539, 1, 1, 1, 2, 'Passat', 150, 2000, 'black', 'van', 1992, 9);
 
 
 -- Povoar Marcas Peças
@@ -1282,3 +1282,5 @@ INSERT INTO Moto(id)
 	VALUES(88);
 INSERT INTO Moto(id)
 	VALUES(97);
+
+

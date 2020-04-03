@@ -11,13 +11,13 @@ DROP TABLE IF EXISTS CategoriaPeca;
 DROP TABLE IF EXISTS MarcaPeca;
 DROP TABLE IF EXISTS Veiculo;
 DROP TABLE IF EXISTS Registo;
-DROP TABLE IF EXISTS Condicao;
 DROP TABLE IF EXISTS Cor;
 DROP TABLE IF EXISTS ModeloVeiculo;
 DROP TABLE IF EXISTS MarcaVeiculo;
 DROP TABLE IF EXISTS Segmento;
 DROP TABLE IF EXISTS Foto;
 DROP TABLE IF EXISTS Anuncio;
+DROP TABLE IF EXISTS Condicao;
 DROP TABLE IF EXISTS UtilizadorProfissional;
 DROP TABLE IF EXISTS UtilizadorParticular;
 DROP TABLE IF EXISTS Utilizador;
@@ -118,8 +118,8 @@ CREATE TABLE Veiculo(
     numRegistos INTEGER CHECK ( numRegistos >= 1 ),
     cor TEXT,
     FOREIGN KEY (id) REFERENCES Anuncio,
-    FOREIGN KEY (mesRegisto, anoRegisto) REFERENCES Registo,
-    FOREIGN KEY (modelo, potencia, cilindrada, segmento) REFERENCES ModeloVeiculo,
+    FOREIGN KEY (mesRegisto, anoRegisto) REFERENCES Registo(mes, ano),
+    FOREIGN KEY (modelo, potencia, cilindrada, segmento) REFERENCES ModeloVeiculo(nome, potencia, cilindrada, segmento),
     FOREIGN KEY (cor) REFERENCES Cor,
     CONSTRAINT CHK_BOOL CHECK ( (ivaDedutivel = 0 OR ivaDedutivel = 1) AND
                                 (retoma = 0 OR retoma = 1) AND

@@ -160,9 +160,9 @@ int InsertSQL::insertVeiculos() {
     this->output << "-- Povoar Veiculos\n\n";
 
     for (auto line : data) {
-        this->output << "INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, marca, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)\n\tVALUES(";
+        this->output << "INSERT INTO Veiculo(id, matricula, quilometros, ivaDedutivel, retoma, financiamento, numRegistos, modelo, potencia, cilindrada, cor, segmento, anoRegisto, mesRegisto)\n\tVALUES(";
         this->output << line[0] << separator << quotes(line[1]) << separator << line[2] << separator << line[3] << separator << line[4] << separator
-                    << quotes(line[5]) << separator << line[6] << separator << quotes(line[7]) << separator << quotes(line[8]) << separator
+                    << line[5] << separator << line[6] << separator << quotes(line[8]) << separator
                     << line[9] << separator << line[10] << separator << quotes(line[11]) << separator << quotes(line[12]) << separator
                     << line[13] << separator << line[14] << ");" << endl;
     }
