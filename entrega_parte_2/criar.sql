@@ -44,7 +44,8 @@ CREATE TABLE UtilizadorParticular(
 
 CREATE TABLE UtilizadorProfissional(
     email TEXT PRIMARY KEY,
-    NIF char(9) UNIQUE NOT NULL,
+    localizacao TEXT NOT NULL,
+    nif char(9) UNIQUE NOT NULL,
     FOREIGN KEY (email) REFERENCES Utilizador
 );
 
