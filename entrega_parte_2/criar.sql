@@ -48,11 +48,21 @@ CREATE TABLE UtilizadorProfissional(
     FOREIGN KEY (email) REFERENCES Utilizador
 );
 
+CREATE TABLE Condicao(
+    tipo TEXT PRIMARY KEY
+);
+
 CREATE TABLE Anuncio(
     id INTEGER PRIMARY KEY,
     descricao TEXT,
+    condicao TEXT,
+    anunciante TEXT,
+    evento INTEGER,
     preco INTEGER CHECK ( preco >= 0 ),
-    dataAnuncio TEXT
+    data TEXT,
+    FOREIGN KEY (condicao) REFERENCES Condicao,
+    FOREIGN KEY (evento) REFERENCES Evento,
+    FOREIGN KEY (anunciante) REFERENCES Utilizador
 );
 
 CREATE TABLE Foto(
@@ -82,10 +92,6 @@ CREATE TABLE ModeloVeiculo(
 
 CREATE TABLE Cor(
     nome TEXT PRIMARY KEY
-);
-
-CREATE TABLE Condicao(
-    tipo TEXT PRIMARY KEY
 );
 
 CREATE TABLE Registo(
