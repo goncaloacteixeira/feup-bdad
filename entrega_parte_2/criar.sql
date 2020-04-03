@@ -87,7 +87,7 @@ CREATE TABLE ModeloVeiculo(
     cilindrada INTEGER CHECK (cilindrada >= 0),
     segmento TEXT,
     marca TEXT,
-    PRIMARY KEY (nome, potencia, cilindrada),
+    PRIMARY KEY (nome, potencia, cilindrada, segmento),
     FOREIGN KEY (segmento) REFERENCES Segmento,
     FOREIGN KEY (marca) REFERENCES MarcaVeiculo
 );
