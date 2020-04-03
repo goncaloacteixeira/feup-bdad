@@ -46,6 +46,7 @@ CREATE TABLE UtilizadorProfissional(
     email TEXT PRIMARY KEY,
     localizacao TEXT NOT NULL,
     nif char(9) UNIQUE NOT NULL,
+    avatar TEXT NOT NULL,
     FOREIGN KEY (email) REFERENCES Utilizador
 );
 
