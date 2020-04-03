@@ -45,7 +45,6 @@ CREATE TABLE UtilizadorParticular(
 CREATE TABLE UtilizadorProfissional(
     email TEXT PRIMARY KEY,
     NIF char(9) UNIQUE NOT NULL,
-    telefone TEXT NOT NULL,
     FOREIGN KEY (email) REFERENCES Utilizador
 );
 
