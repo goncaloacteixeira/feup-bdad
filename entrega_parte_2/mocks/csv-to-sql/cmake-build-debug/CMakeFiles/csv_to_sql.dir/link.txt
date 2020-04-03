@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/csv_to_sql.dir/main.cpp.o CMakeFiles/csv_to_sql.dir/CSVReader.cpp.o CMakeFiles/csv_to_sql.dir/InsertSQL.cpp.o  -o csv_to_sql.exe -Wl,--out-implib,libcsv_to_sql.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
