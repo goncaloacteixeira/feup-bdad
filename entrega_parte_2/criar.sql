@@ -32,7 +32,9 @@ CREATE TABLE Evento(
 CREATE TABLE Utilizador(
     nome TEXT NOT NULL,
     telefone TEXT UNIQUE NOT NULL,
-    email TEXT PRIMARY KEY
+    email TEXT PRIMARY KEY,
+    evento INTEGER,
+    FOREIGN KEY (evento) REFERENCES Evento
 );
 
 CREATE TABLE UtilizadorParticular(
