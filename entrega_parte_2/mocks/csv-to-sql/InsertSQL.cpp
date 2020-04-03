@@ -19,6 +19,7 @@ InsertSQL::InsertSQL(string filename) {
     this->pecas = new CSVReader(pecasFile, delimiter);
     this->carros = new CSVReader(carrosFile, delimiter);
     this->motos = new CSVReader(motosFile, delimiter);
+    this->fotos = new CSVReader(fotosFile, delimiter);
 
     this->output = ofstream(filename, ofstream::out | ofstream::trunc);
 }
@@ -257,6 +258,17 @@ int InsertSQL::insertMotos() {
         this->output << line[0] << ");" << endl;
     }
     this->output << endl << endl;
+}
+
+int InsertSQL::insertFotos() {
+    auto data = this->fotos->getData();
+
+    this->output << "-- Povoar Fotos\n\n";
+    for (auto line : data) {
+        this->output << "INSERT INTO Foto(link, idAnuncio)\n\tVALUES(";
+        this->output << quotes(line[0]) << separator << line[1] << ");" << endl;
+    }
+    this->output << endl;
 }
 
 

@@ -19,6 +19,7 @@ int main() {
     insertSql.insertPecas();
     insertSql.insertCarros();
     insertSql.insertMotos();
+    insertSql.insertFotos();
 
     return 0;
 }

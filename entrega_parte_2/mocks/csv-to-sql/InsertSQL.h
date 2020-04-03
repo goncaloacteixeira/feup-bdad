@@ -17,6 +17,7 @@ static string veiculosFile = "../data/veiculos.csv";
 static string pecasFile = "../data/pecas.csv";
 static string carrosFile = "../data/carro.csv";
 static string motosFile = "../data/moto.csv";
+static string fotosFile = "../data/fotos.csv";
 static string delimiter = ";";
 
 class InsertSQL {
@@ -29,6 +30,7 @@ class InsertSQL {
     CSVReader* pecas;
     CSVReader* carros;
     CSVReader* motos;
+    CSVReader* fotos;
     ofstream output;
 
 public:
@@ -44,6 +46,7 @@ public:
     int insertPecas();
     int insertCarros();
     int insertMotos();
+    int insertFotos();
 };
 
 
