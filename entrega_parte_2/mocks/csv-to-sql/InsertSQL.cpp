@@ -271,6 +271,43 @@ int InsertSQL::insertFotos() {
     this->output << endl;
 }
 
+int InsertSQL::insertInteresses() {
+    auto anuncios = new CSVReader(anunciosFile, delimiter);
+    auto utilizadores = new CSVReader(utilizadoresFile, delimiter);
+
+    auto data = anuncios->getData();
+    set<vector<string>> ids;
+    for (auto v : data)
+        ids.insert({v[0], v[4]});
+
+    data = utilizadores->getData();
+    vector<string> emails;
+    for (auto v : data)
+        emails.push_back(v[0]);
+
+    vector<vector<string>> toInsert;
+    for (auto v : ids) {
+        int num = rand() % 3;
+        for (int i = 0; i < num; i++) {
+            int j = 0;
+            string email;
+            do {
+                j = rand() % emails.size();
+                email = emails[j];
+            } while (email == v[1]);
+            string id = v[0];
+            toInsert.push_back({email, id});
+        }
+    }
+
+    this->output << "-- Povoar Interesses\n\n";
+    for (auto line : toInsert) {
+        this->output << "INSERT INTO Interessado(email, id)\n\tVALUES(";
+        this->output << quotes(line[0]) << separator << line[1] << ");" << endl;
+    }
+    this->output << endl;
+}
+
 
 
 

@@ -21,5 +21,6 @@ int main() {
     insertSql.insertMotos();
     insertSql.insertFotos();
 
+    insertSql.insertInteresses();
     return 0;
 }

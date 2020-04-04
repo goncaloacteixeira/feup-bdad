@@ -47,6 +47,7 @@ public:
     int insertCarros();
     int insertMotos();
     int insertFotos();
+    int insertInteresses();
 };
 
 
