@@ -2,7 +2,7 @@
 .headers on
 .nullvalue NULL
 
--- 9. Listar carros usados, de anunciante profissional, do envento de 2015,
+-- 9. Listar carros usados, de anunciante profissional, do evento de 2015,
 -- caixa automática, menos de 100k KM, pelo menos 2 fotos e preço inferior a 40.000€
 SELECT C.id as ID
 FROM Anuncio
